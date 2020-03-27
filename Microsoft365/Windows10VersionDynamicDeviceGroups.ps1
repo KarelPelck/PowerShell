@@ -1,5 +1,6 @@
 ﻿# Creating Dynamic groups for each windows version
-# https://en.wikipedia.org/wiki/Windows_10_version_history
+# https://docs.microsoft.com/en-us/windows/release-information/
+# https://docs.microsoft.com/en-us/windows-insider/flight-hub/
 # requirement AzureAD Preview module
 Connect-AzureAD
 
