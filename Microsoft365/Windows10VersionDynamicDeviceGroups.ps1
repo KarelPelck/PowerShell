@@ -29,5 +29,8 @@ New-AzureADMSGroup -DisplayName "M365_D_Windows10_1903" -Description "Containing
 #(device.deviceOSVersion -startsWith "10.0.18363") #1909
 New-AzureADMSGroup -DisplayName "M365_D_Windows10_1909" -Description "Containing all Windows 10 version 1909" -MailEnabled $False -MailNickName $False -SecurityEnabled $True -GroupTypes "DynamicMembership" -MembershipRule '(device.deviceOSVersion -startsWith "10.0.18363")' -MembershipRuleProcessingState "On"
 
-#(device.deviceOSVersion -startsWith "10.0.18363") #2004
+#(device.deviceOSVersion -startsWith "10.0.19041") #2004
 New-AzureADMSGroup -DisplayName "M365_D_Windows10_2004" -Description "Containing all Windows 10 version 2004" -MailEnabled $False -MailNickName $False -SecurityEnabled $True -GroupTypes "DynamicMembership" -MembershipRule '(device.deviceOSVersion -startsWith "10.0.19041")' -MembershipRuleProcessingState "On"
+
+#(device.deviceOSVersion -startsWith "10.0.19042") #20H2
+New-AzureADMSGroup -DisplayName "M365_D_Windows10_20H2" -Description "Containing all Windows 10 version 20H2" -MailEnabled $False -MailNickName $False -SecurityEnabled $True -GroupTypes "DynamicMembership" -MembershipRule '(device.deviceOSVersion -startsWith "10.0.19042")' -MembershipRuleProcessingState "On"
